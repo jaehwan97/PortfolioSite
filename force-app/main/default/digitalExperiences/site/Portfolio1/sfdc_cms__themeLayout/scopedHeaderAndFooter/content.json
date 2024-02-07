@@ -1,0 +1,101 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Scoped Header and Footer",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"03166cd3-1880-4cb7-b4e9-2b00413af3e0\",\"columns\":[{\"UUID\":\"ab86f974-fb79-4e2d-9822-8e075fb1cb82\",\"columnName\":\"Theme Header\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:navMenu",
+              "id" : "a55dab1d-e1dc-4e29-8c4f-ff1a192cac6c",
+              "type" : "component"
+            } ],
+            "id" : "ab86f974-fb79-4e2d-9822-8e075fb1cb82",
+            "name" : "headerSection",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "03166cd3-1880-4cb7-b4e9-2b00413af3e0",
+          "type" : "component"
+        } ],
+        "id" : "d4d78c16-be2a-4c14-8194-d6b7721fa781",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"fd13fc87-7ee9-45dd-8513-113acbfb6e00\",\"columns\":[{\"UUID\":\"c7e3919c-1128-4ee4-9107-5bb14f196645\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:aboutMe",
+              "id" : "c2681ffc-b85c-4dbd-b765-acd891ac312a",
+              "type" : "component"
+            }, {
+              "attributes" : { },
+              "definition" : "c:skillCards",
+              "id" : "ccb0f270-5985-497b-b93c-300c03a104f4",
+              "type" : "component"
+            } ],
+            "id" : "c7e3919c-1128-4ee4-9107-5bb14f196645",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fd13fc87-7ee9-45dd-8513-113acbfb6e00",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"33f51ba6-f811-4597-a1fc-9a8e6c2da85c\",\"columns\":[{\"UUID\":\"a465d455-3ac3-437f-b2e8-3cc1850bd252\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "This site built using Lightning Web Components running on Lightning Web Runtime.",
+                "textAlign" : "center",
+                "textDecoration" : "{\"italic\":true,\"bold\":false}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "fc2d1bf8-3fa9-4006-aeb7-6abb7bade1f2",
+              "type" : "component"
+            } ],
+            "id" : "a465d455-3ac3-437f-b2e8-3cc1850bd252",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "33f51ba6-f811-4597-a1fc-9a8e6c2da85c",
+          "type" : "component"
+        } ],
+        "id" : "c5fbf7f1-edf9-4afc-93cd-789649d677ce",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "community_byo:scopedHeaderAndFooter",
+      "id" : "43a1f9c1-f943-41ff-b7c4-b6e8e5f5400d",
+      "type" : "component"
+    }
+  }
+}

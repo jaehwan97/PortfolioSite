@@ -1,0 +1,33 @@
+.outer-container {
+    max-width: 1200px;  
+    margin: 0 auto;  
+}
+img {
+    border-radius: 7px;
+    margin: 0 10px;
+}
+h1 {
+    margin-top: 10px;
+    font-size:36px;
+}
+p {
+    font-size:24px;
+}
+button {
+    margin-top: 10px;
+    border-radius: 7px;
+
+}
+.call-to-action {
+    text-align: center;
+}
+.column {
+    float: left;
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    width: 48%;
+    padding: 5px;
+  }
+.row {
+    
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "AboutMe",
+  "contentBody" : {
+    "activeViewId" : "AboutMe",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-aboutme",
+    "urlPrefix" : "aboutme"
+  }
+}

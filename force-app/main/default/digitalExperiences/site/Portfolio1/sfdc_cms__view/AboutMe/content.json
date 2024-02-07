@@ -1,0 +1,52 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "AboutMe",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"48d92011-b34f-488b-863b-346f95ffade7\",\"columns\":[{\"UUID\":\"b18d1a2a-03a3-4cb1-a4d3-c31eaf92127a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "b18d1a2a-03a3-4cb1-a4d3-c31eaf92127a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "48d92011-b34f-488b-863b-346f95ffade7",
+          "type" : "component"
+        } ],
+        "id" : "6f1da6b5-f269-4f92-8a9d-8fc3c37b1c5c",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "AboutMe",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "127c2a58-f9b9-4052-aac4-41bab692275e",
+          "type" : "component"
+        } ],
+        "id" : "e6aa1c59-7b1d-4709-9e0f-cb300663d7b1",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "325f2649-5041-4f14-af41-ab53314eb360",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-aboutme"
+  }
+}
