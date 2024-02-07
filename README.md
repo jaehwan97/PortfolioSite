@@ -1,4 +1,4 @@
-# It's unfinished and I'm practicing.
+# It's unfinished and practicing org.
 
 ## Salesforce DX Project: Next Steps
 
